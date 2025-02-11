@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+header {
+    background: #6200ea;
+    color: white;
+    padding: 10px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #6200ea;
+    color: white;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #6200ea;
+    color: white;
+    cursor: pointer;
+}
+#popup-overlay {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#popup {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+#popup button {
+    background: #28a745;
+}
